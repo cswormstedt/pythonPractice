@@ -42,7 +42,54 @@ def total(a=5, *numbers, **phonebook):
 
 total(10,1,2,3,jack=1123,john=2231,Inge=1560)
 
+# the Return statement
+def maximum(x, y):
+	if x > y:
+		return x
+	elif x == y:
+		return 'the numbers are equal'
+	else:
+		return y
+# end of function
 
+print(maximum(2, 3))
+
+
+def solve(a0, a1, a2, b0, b1, b2):
+    # Complete this function
+    score_a = 0
+    score_b = 0
+    # a = (1 if a0 > b0 else 0) + (1 if a1 > b1 else 0) + (1 if a2 > b2 else 0)
+    # b = (1 if a0 < b0 else 0) + (1 if a1 < b1 else 0) + (1 if a2 < b2 else 0)
+    # return (a,b)
+
+
+
+
+
+
+
+
+
+def some_function():
+	pass
+# end of function
+
+def print_max(x, y);
+	'''Prints the maximum of two umbers.
+
+	The two values must be integers.'''
+	# convert to integers, in possible
+	x = int(x)
+	y = int(y)
+
+	if x > y:
+		print(x, 'is the maximum')
+	else:
+		print(y, 'is the maximum')
+# end of function
+print_max(3, 5)
+print(print_max.__doc__)
 
 
 
